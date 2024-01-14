@@ -3,7 +3,7 @@
     <div class="container max-w-screen-xl mx-auto px-4">
 
       <nav class="flex items-center justify-between mb-40">
-        <img src="/images/navbar-logo.png" alt="Logo">
+        <h1 class="font-semibold text-lg"> <span>{{ title }}</span> </h1>
 
         <button @click="confirmDownload"
           class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get
@@ -33,4 +33,6 @@
 const confirmDownload = () => {
   alert('Not this time!!!')
 }
+
+const title = ref('<Agamyrat/>')
 </script>
