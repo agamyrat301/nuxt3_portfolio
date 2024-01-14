@@ -3,7 +3,7 @@
     <div class="container max-w-screen-xl mx-auto px-4">
 
       <nav class="flex items-center justify-between mb-40">
-        <h1 class="font-semibold text-lg"> <span>{{ title }}</span> </h1>
+        <h1 class="font-semibold text-lg"><code> {{ title }}</code> </h1>
 
         <button @click="confirmDownload"
           class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get
@@ -31,7 +31,7 @@
   <footer class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
         <a href="#">
-            <h1 class="font-semibold text-white text-lg"> <span>{{ title }}</span> </h1>
+          <h1 class="font-semibold text-white text-lg"><code> {{ title }}</code> </h1>
         </a>
 
         <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2024. All Rights Reserved.</p>
