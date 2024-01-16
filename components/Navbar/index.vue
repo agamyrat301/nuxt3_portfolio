@@ -13,7 +13,7 @@ const confirmDownload = () => {
     const filePath = '/files/RESUME.pdf';
 
     // Construct the full URL using the publicPath provided by Vue CLI
-    const fileUrl = `http://localhost:3000${filePath}`;
+    const fileUrl = `https://agamyrat.vercel.app${filePath}`;
 
     // Create a hidden link element
     const link = document.createElement('a');
